@@ -1,0 +1,10 @@
+1. Flask-based marketplace application supporting user roles: customer, seller.
+2. User authentication system with registration, login, and logout using Flask-Login and password hashing.
+3. Product management for sellers to add, edit, and delete products, including image uploads and thumbnail generation.
+4. Shopping cart functionality allowing users to add, update, and remove items, with a checkout process that creates orders.
+5. Order management enabling placement, status updates by sellers, and viewing by customers and sellers.
+6. Asynchronous background tasks using Celery for email notifications, PDF invoice generation, and stock reduction.
+7. Database models defined with SQLAlchemy for User, Product, Cart, and Order entities.
+8. Image processing and upload handling with Pillow for creating thumbnails and storing files.
+9. Email sending capabilities using Flask-Mail for order confirmations and notifications.
+10. Configuration setup for database (SQLite), mail, uploads, and Celery with Redis as the message broker.
